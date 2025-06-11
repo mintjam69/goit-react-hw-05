@@ -1,0 +1,77 @@
+.searchbar {
+  display: flex;
+  align-items: stretch;
+
+  margin-bottom: 10px;
+
+  background: rgb(159, 218, 235);
+}
+
+.search_panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+.search_field {
+  min-width: 250px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 70px; /* місце під обидві іконки */
+
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.searchBtn {
+  height: 42px;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+.searchBtn:hover,
+.searchBtn:focus {
+  outline: none;
+  border: none;
+  color: rgb(140, 140, 152);
+}
+
+.search_wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search_icon {
+  position: absolute;
+  right: 12px;
+  color: rgb(159, 218, 235);
+  pointer-events: none; /* ЩОБ НЕ КЛІКАЛАСЯ */
+  font-size: 20px;
+}
+
+.clear_icon {
+  position: absolute;
+  right: 36px;
+  background: transparent;
+  border: none;
+  color: #ea26d7;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px;
+  pointer-events: auto; /* АКТИВНЕ КЛІКАННЯ */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
