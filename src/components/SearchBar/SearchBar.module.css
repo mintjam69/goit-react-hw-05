@@ -43,7 +43,7 @@
 .searchBtn:focus {
   outline: none;
   border: none;
-  color: rgb(140, 140, 152);
+  color: #31e685;
 }
 
 .search_wrapper {
